@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta name="pehtml" content="true">
+<tab color="#CD5C5C"><icon src="icon.ico"><title color: #CD5C5C>Plasmmer Experimental HTML</title>
+<meta name="external" content="external">
+<style>
+body{font-family:Arial;-webkit-font-smoothing: antialiased}.header, header{position:fixed;top:0;left:0;width:100%;height:60px;background:#5B6ED6;border-bottom:1px solid #2339B3;-webkit-box-shadow:0 2px 2px -2px rgba(0, 0, 0, .52);color:#fff;padding-left:20px;z-index:5000}.logo, logo{position:absolute;width:315px;height:60px;background:url(http://i.imgur.com/q3nzt.png) no-repeat no-repeat 10px 15px}.logo, logo:hover{background:#2339B3 url(http://i.imgur.com/q3nzt.png) no-repeat no-repeat 10px 15px}.article, article{margin-top:75px}.h1, h1{font-size:30px;font-weight:bold;color:#5B6ED6;margin-bottom:5px}.h2, h2{font-size:20px;font-weight:bold;color:#333;margin-bottom:5px;display:inline}.badge{background-color:#E7534F;font-family:Arial;font-size:12px;font-weight:bold;padding:3px 8px;border-radius:3px;color:#fff;position:relative;top:-2px;margin-left:8px;display:inline}.p, p{color:#585b55;font-weight:bold;font-size:12px}.span, span{color:#888;font-size:10px}.blockquote, blockquote{padding:10px;background:#D6D6D6;color:#585b55;font-size:12px;font-weight:bold}.blockquotebtn{background-color:#E7534F;border-top:1px solid #333;border-left:1px solid #333;font-size:20px;font-weight:bold;padding:3px 8px;border-radius:10px 0 0 0;color:#fff;position:relative;top:-7px;left:10px;float:right}.blockquoteminibtn{border:1px solid #333;border-radius:0 !important;height:27px;top:-10px !important}
+</style>
+</head>
+<body>
+<header><logo /></header>
+<article>
+<nopehtml><blockquote style="padding: 10px;  background: #D6D6D6;border-left: 10px solid #E7534F;border-right: 10px solid #E7534F;border-radius: 20px;font-family: Arial;color: #585b55;font-size: 12px;font-weight: bold;margin: 0 auto;text-align: center;"><div style="margin-top: -7px;margin-left: 5px;width: 80px;height: 80px;clear: left;float: left"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 32 32"><g></g><path d="M31.219 28.771l-14.253-25.010c-0.197-0.346-0.566-0.558-0.966-0.558s-0.768 0.213-0.966 0.558l-14.251 25.010c-0.194 0.339-0.19 0.754 0.008 1.090s0.563 0.542 0.957 0.542h28.504c0.39 0 0.757-0.206 0.957-0.542 0.198-0.336 0.202-0.75 0.011-1.090zM17.76 27.203h-3.52v-3.2h3.52v3.2zM17.76 21.603h-3.52v-9.6h3.52v9.6z" fill="#e7534f"></path></svg></div><h1 style="font-size: 40px;  font-weight: bold;color: #5B6ED6;margin-top: -5px;margin-bottom: -15px;float: center">Aviso</h1><br>Seu navegador não suporta sites construídos em PEHTML. Isso significa que esse site não será exibido corretamente em seu atual navegador. <br><a href="../boat">Baixe o navegador Internet Boat</a> para experimentar todo o poder do PEHTML e aproveitar todos os recursos desse site.</blockquote></nopehtml>
+<h1>O que é o Plasmmer Experimental HTML (PEHTML)</h1>
+<p>São tags HTML experimentais, desenvolvidas pela Plasmmer. Novas tags semânticas. Veja a lista dos navegadores que atualmente suportam o PEHTML:</p>
+<blockquote><img src="ib.svg" width="16" height="16" /> Internet Boat</blockquote>
+
+<h1>Começando</h1>
+
+<h2>Meta tag do PEHTML</h2>
+<p>Para avisar aos usuários e desenvolvedores de que seu site possui conteúdo em PEHTML, utilize essa meta tag:</p>
+<blockquote>&lt;meta name="pehtml" content="true"&gt;</blockquote>
+
+<h2>Aviso para navegadores que não suportam o PEHTML</h2>
+<p>Como você observou anteriormente, uma mensagem é exibida no topo dessa página, avisando ao visitante que o navegador dele não suporta o PEHTML.<br>Para inserir uma mensagem como essa em seu site, utilize essa tag:</p>
+<blockquote>&lt;nopehtml&gt;Sua mensagem personalizada aqui&lt;/nopehtml&gt;<script language="JavaScript"> function abrir(URL) {  var width = 570;  var height = 420;  var left = 99;  var top = 99;  window.open(URL,'janela', 'width='+width+', height='+height+', top='+top+', left='+left+', scrollbars=yes, status=no, toolbar=no, location=no, directories=no, menubar=no, resizable=no, fullscreen=no'); } </script> <a href="javascript:abrir('nopehtml.html');"><div class="blockquotebtn blockquoteminibtn">Use o mesmo código utilizado nessa página!</div></a></blockquote>
+
+<h1>As tags do PEHTML</h1>
+
+<h2>Abas</h2><span class="badge">BETA</span>
+<p>Com essas tags, você pode personalizar o fundo, a cor do texto e o ícone da aba de seu site.</p>
+<blockquote>&lt;icon src="icon.ico"&gt;<span> Este é o ícone que aparecerá na aba, ao lado do título do site. Ao você arrastar a aba para a barra de tarefas, poderá fixar o site como um aplicativo. Para tal, esse ícone deve possuir vários tamanhos, à partir de no mínimo 32x32.</span><br>&lt;browsertab color="#CD5C5C"&gt;<span> Marca a cor da aba do site. Caso o site tenha sido fixado como um aplicativo, essa será a cor da tile e da caixa de ferramentas do aplicativo.</span><br>&lt;title color= "#CD5C5C"&gt;Título do site&lt;/title&gt;<span> Marca a cor do título do site.</span><a href="customtab.html" target="blank"><div class="blockquotebtn">Eai, vai rolar um teste?</div></a></blockquote>
+
+<h2>Logo</h2>
+<p>Essa tag estrutural serve para marcar o logo do cabeçalho principal do site.</p>
+<blockquote>&lt;logo/&gt;</blockquote>
+
+<h1>Meta tags</h1>
+
+<h2>Tag encurtada para arquivos externos</h2><span class="badge">BETA</span>
+<p>Para carregar arquivos css e js em massa, com uma simples tag, apontando para o diretório. Todos os arquivos desse diretório serão carregados no site.</p>
+<blockquote>&lt;meta name="directory" content="folder"&gt;<span> No <i>content</i>, o valor é o nome da pasta em que os arquivos se localizam.</span></blockquote>
+
+<h2>Rating</h2><span class="badge">BETA</span>
+<p>Esta meta tag é uma forma de classificar a página quanto à censura. No PEHTML, 5 valores para o <i>content</i> foram acrescentados nessa tag.</p>
+<blockquote>&lt;meta name="rating" content="chock"&gt;<span> Exibe em mecanismos de busca e no navegador, um aviso informando que um site possui um conteúdo "chocante", cenas fortes, não recomendado para pessoas frágeis.</span><br>&lt;meta name="rating" content="hentai"&gt;<span> Informa quando um site possui pornografia pesada em mangá/animê.</span><br>&lt;meta name="rating" content="ecchi"&gt;<br>&lt;meta name="rating" content="yaoi"&gt;<br>&lt;meta name="rating" content="yuri"&gt;<br></blockquote>
+
+<h1>Mais</h1>
+
+<h2>Selo do PEHTML</h2>
+<p>Essa tag estrutural serve para marcar o logo do cabeçalho principal do site.</p>
+<blockquote>&lt;logo/&gt;</blockquote>
+</article>
+</body>
+</html>
