@@ -5,6 +5,8 @@
 * Exclusive page for each tag (SITE);
 * PHP site with MySQL, showing browsers using PHP - and his creators and base users (SITE);
 * Use all good things of http://2012.plasmmer.com/pehtml/ (SITE);
+* New PEHTML icon in topbar (SITE);
+* Plasma breadcrumbs in topbar (SITE);
 * Bottom bar (SITE);
 * Site PEHTML score (SITE);
 * Social buttons (SITE);
