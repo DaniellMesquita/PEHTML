@@ -1,6 +1,11 @@
-* Tabs menu element (necessary like tables/lists);
-* Alerts;
-* Alert counter bubble;
-* Window preview's buttons API;
-* <noscreens> tag;
-* Age ratings;
+* Renamed <tab> into <browsertab> (SITE)
+* Bottom bar (SITE)
+* Site PEHTML score (SITE)
+* PEHTML Scores (PAGE)
+* Tabs menu element (PEHTML);
+* Alerts (PEHTML);
+* Alert counter bubble (PEHTML);
+* Window preview's buttons API (PEHTML);
+* <noscreens> tag (PEHTML);
+* Age ratings (PEHTML);
+* Properly closed <browsertab> and <icon> (PEHTML)
