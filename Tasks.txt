@@ -1,3 +1,8 @@
+* Fixed/Added favicon (SITE);
+* PEHTML-based index page (SITE);
+* Script that if are not in IB, redirect to other page - with bars and other deprecated tags (SITE);
+* PHP site with MySQL, showing browsers using PHP - and his creators and base users (SITE);
+* Use all good things of 2012 site (SITE);
 * Bottom bar (SITE);
 * Site PEHTML score (SITE);
 * PEHTML Scores (PAGE);
