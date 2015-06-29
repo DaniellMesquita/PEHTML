@@ -1,11 +1,11 @@
-* Renamed <tab> into <browsertab> (SITE)
-* Bottom bar (SITE)
-* Site PEHTML score (SITE)
-* PEHTML Scores (PAGE)
+* Renamed <tab> into <browsertab> (SITE);
+* Bottom bar (SITE);
+* Site PEHTML score (SITE);
+* PEHTML Scores (PAGE);
 * Tabs menu element (PEHTML);
 * Alerts (PEHTML);
 * Alert counter bubble (PEHTML);
 * Window preview's buttons API (PEHTML);
 * <noscreens> tag (PEHTML);
 * Age ratings (PEHTML);
-* Properly closed <browsertab> and <icon> (PEHTML)
+* Properly closed <browsertab> and <icon> (PEHTML);
