@@ -1,4 +1,3 @@
-* External CSS file (SITE);
 * Bottom bar (SITE);
 * Site PEHTML score (SITE);
 * PEHTML Scores (PAGE);
