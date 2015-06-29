@@ -7,4 +7,3 @@
 * Window preview's buttons API (PEHTML);
 * <noscreens> tag (PEHTML);
 * Age ratings (PEHTML);
-* Properly closed <browsertab> and <icon> (PEHTML);
