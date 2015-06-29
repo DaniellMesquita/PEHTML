@@ -1,4 +1,3 @@
-* Renamed <tab> into <browsertab> (SITE);
 * Bottom bar (SITE);
 * Site PEHTML score (SITE);
 * PEHTML Scores (PAGE);
