@@ -1,3 +1,4 @@
+* Correct point adress at <meta> "external" (SITE);
 * External CSS file (SITE);
 * Bottom bar (SITE);
 * Site PEHTML score (SITE);
