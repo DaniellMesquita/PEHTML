@@ -7,6 +7,10 @@
 * Use all good things of 2012 site (SITE);
 * Bottom bar (SITE);
 * Site PEHTML score (SITE);
+* Social buttons (SITE);
+* Navigation buttons in top bar (SITE);
+* User buttons in top bar (SITE);
+* User menus in top bar (SITE);
 * PEHTML Scores (PAGE);
 * Tabs menu element (PEHTML);
 * Alerts (PEHTML);
