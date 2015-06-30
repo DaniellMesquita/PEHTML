@@ -20,4 +20,5 @@
 * Alert counter bubble (PEHTML);
 * Window preview's buttons API (PEHTML);
 * <noscreens> tag (PEHTML);
+* Warning of extention site need to download (PEHTML);
 * Age ratings (PEHTML);
