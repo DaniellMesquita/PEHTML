@@ -1,4 +1,3 @@
-* GitHub link in footerbar (SITE);
 * Facebook link in footer bar (SITE);
 * Twitter link in footer bar (SITE);
 * Ask.fm link in footer bar (SITE);
