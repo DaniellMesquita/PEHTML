@@ -6,7 +6,6 @@
 * New PEHTML icon in topbar (SITE);
 * Plasma breadcrumbs in topbar (SITE);
 * Peep button for user (SITE);
-* PEHTML Requests page (SITE);
 * Use Pagespeed's insights to increase speed/simplicity (SITE);
 * Exclusive page for each tag (SITE);
 * Bottom bar (SITE);
@@ -21,6 +20,7 @@
 * GitHub button in footerbar (SITE);
 * Site PEHTML score (SITE);
 * Social buttons (SITE);
+* PEHTML Requests (PAGE);
 * PEHTML Scores (PAGE);
 * Title of tab accourding to field in "custom tab" page (SITE);
 * Title color of tab accourding to field in "custom tab" page (SITE);
