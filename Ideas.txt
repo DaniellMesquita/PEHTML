@@ -9,8 +9,6 @@
 * Add wrappers to <h1> elements (SITE);
 * Use Pagespeed's insights to increase speed/simplicity (SITE);
 * Exclusive page for each tag (SITE);
-* Bottom bar (SITE);
-* Última atualização em DD/MM/YYYY in footerbar (SITE);
 * P UI Framework link in footerbar (SITE);
 * P Developers forum link in footer bar (SITE);
 * Internet Boat links in footerbar (SITE);
