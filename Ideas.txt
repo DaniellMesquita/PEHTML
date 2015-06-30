@@ -1,3 +1,4 @@
+* Change style of Disqus (SITE);
 * Fixed "custom tab" page (SITE);
 * Navigation buttons in top bar (SITE);
 * User buttons in top bar (SITE);
