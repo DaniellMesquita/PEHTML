@@ -1,5 +1,4 @@
 * PEHTML-based index page (SITE);
-* Added transparency in icons' edges (SITE);
 * Fixed "custom tab" page (SITE);
 * Title of tab accourding to field in "custom tab" page (SITE);
 * Icon of tab accourding to field in "custom tab" page (SITE);
