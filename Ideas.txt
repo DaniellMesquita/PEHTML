@@ -1,3 +1,5 @@
+* Fixed all errors with <h1> (SITE);
+* Fixed error with warning icon (SITE);
 * Change style of Disqus (SITE);
 * Fixed "custom tab" page (SITE);
 * Navigation buttons in top bar (SITE);
