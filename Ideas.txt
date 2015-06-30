@@ -7,6 +7,7 @@
 * New PEHTML icon in topbar (SITE);
 * Plasma breadcrumbs in topbar (SITE);
 * Peep button for user (SITE);
+* Add wrappers to <h1> elements (SITE);
 * Use Pagespeed's insights to increase speed/simplicity (SITE);
 * Exclusive page for each tag (SITE);
 * Bottom bar (SITE);
