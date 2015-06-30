@@ -1,4 +1,3 @@
-* Ask.fm link in footer bar (SITE);
 * Deviantart link in footer bar (SITE);
 * Fixed "custom tab" page (SITE);
 * Navigation buttons in top bar (SITE);
