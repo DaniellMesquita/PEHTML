@@ -5,6 +5,8 @@
 * Tab icon link field in "custom tab" page (SITE);
 * Icon of tab accourding to field in "custom tab" page (SITE);
 * Color of tab accourding to field in "custom tab" page (SITE);
+* Peep button for user (SITE);
+* GitHub button in footerbar (SITE);
 * Script that if are not in IB, redirect to other page - with bars and other deprecated tags (SITE);
 * PEHTML Requests page (SITE);
 * Use Pagespeed's insights to increase speed/simplicity (SITE);
