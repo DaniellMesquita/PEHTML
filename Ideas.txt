@@ -1,5 +1,3 @@
-* Fixed all errors with <h1> (SITE);
-* Change style of Disqus (SITE);
 * Fixed "custom tab" page (SITE);
 * Navigation buttons in top bar (SITE);
 * User buttons in top bar (SITE);
@@ -39,3 +37,4 @@
 * Age ratings (PEHTML);
 * Script that if are not in IB, redirect to other page - with bars and other deprecated tags (SITE);
 * PHP site with MySQL, showing browsers using PHP - and his creators and base users (SITE);
+* Fixed all errors with <h1> (SITE);
