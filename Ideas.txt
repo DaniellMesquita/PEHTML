@@ -1,4 +1,5 @@
 * PEHTML-based index page (SITE);
+* Added transparency in icons' edges (SITE);
 * Script that if are not in IB, redirect to other page - with bars and other deprecated tags (SITE);
 * PEHTML Requests page (SITE);
 * Use Pagespeed's insights to increase speed/simplicity (SITE);
