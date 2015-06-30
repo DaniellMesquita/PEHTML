@@ -1,6 +1,8 @@
-* PEHTML-based index page (SITE);
+* PEHTML-pure index page (SITE);
 * Fixed "custom tab" page (SITE);
 * Title of tab accourding to field in "custom tab" page (SITE);
+* Title color of tab accourding to field in "custom tab" page (SITE);
+* Tab icon link field in "custom tab" page (SITE);
 * Icon of tab accourding to field in "custom tab" page (SITE);
 * Color of tab accourding to field in "custom tab" page (SITE);
 * Script that if are not in IB, redirect to other page - with bars and other deprecated tags (SITE);
