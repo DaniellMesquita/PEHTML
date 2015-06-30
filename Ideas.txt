@@ -1,4 +1,3 @@
-* Facebook link in footer bar (SITE);
 * Twitter link in footer bar (SITE);
 * Ask.fm link in footer bar (SITE);
 * Deviantart link in footer bar (SITE);
