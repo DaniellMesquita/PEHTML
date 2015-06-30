@@ -1,4 +1,3 @@
-* PEHTML-pure index page (SITE);
 * Fixed "custom tab" page (SITE);
 * Title of tab accourding to field in "custom tab" page (SITE);
 * Title color of tab accourding to field in "custom tab" page (SITE);
