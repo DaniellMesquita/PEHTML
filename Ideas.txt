@@ -6,6 +6,10 @@
 * Icon of tab accourding to field in "custom tab" page (SITE);
 * Color of tab accourding to field in "custom tab" page (SITE);
 * Peep button for user (SITE);
+* Última atualização em DD/MM/YYYY in footerbar (SITE);
+* P UI Framework link in footerbar (SITE);
+* P Developers forum link in footer bar (SITE);
+* Internet Boat links in footerbar (SITE);
 * GitHub button in footerbar (SITE);
 * Script that if are not in IB, redirect to other page - with bars and other deprecated tags (SITE);
 * PEHTML Requests page (SITE);
