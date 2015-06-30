@@ -10,6 +10,10 @@
 * P UI Framework link in footerbar (SITE);
 * P Developers forum link in footer bar (SITE);
 * Internet Boat links in footerbar (SITE);
+* Facebook link in footer bar (SITE);
+* Twitter link in footer bar (SITE);
+* Ask.fm link in footer bar (SITE);
+* Deviantart link in footer bar (SITE);
 * GitHub button in footerbar (SITE);
 * Script that if are not in IB, redirect to other page - with bars and other deprecated tags (SITE);
 * PEHTML Requests page (SITE);
