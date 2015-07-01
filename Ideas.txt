@@ -1,4 +1,3 @@
-* Use all good things of http://2012.plasmmer.com/pehtml/ (SITE);
 * Add wrappers to <h1> elements (SITE);
 * Fixed "custom tab" page (SITE);
 * Navigation buttons in top bar (SITE);
