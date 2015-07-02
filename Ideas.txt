@@ -16,6 +16,12 @@
 * Google+ popup (SITE);
 * Twitter popup (SITE);
 * Ask.fm popup (SITE);
+* Tumblr icon in footer bar (SITE);
+* Pinterest icon in footer bar (SITE);
+* Feed icon in footer bar (SITE);
+* Peeper icon in footer bar (SITE);
+* "customtab.html" in popup (SITE);
+* Fix <nopehtml> popup (SITE);
 * Peep button for user (SITE);
 * <bar> element, ahead of <body> (PEHTML);
 * Book API (PEHTML);
