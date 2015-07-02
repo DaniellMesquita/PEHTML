@@ -12,6 +12,10 @@
 * User buttons in top bar (SITE);
 * Inline HTML | HTML+CSS tabs menu in "customtab.html" (SITE);
 * User menus in top bar (SITE);
+* Facebook popup (SITE);
+* Google+ popup (SITE);
+* Twitter popup (SITE);
+* Ask.fm popup (SITE);
 * Peep button for user (SITE);
 * <bar> element, ahead of <body> (PEHTML);
 * New PEHTML icon in topbar (SITE);
