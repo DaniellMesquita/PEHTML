@@ -6,11 +6,13 @@
 * Tabs menu element (PEHTML);
 * Alerts (PEHTML);
 * Alert counter bubble (PEHTML);
+* Sites working like apps, and can be downloaded as apps/clients (PEHTML);
 * Window preview's buttons API (PEHTML);
 * Navigation buttons in top bar (SITE);
 * User buttons in top bar (SITE);
 * User menus in top bar (SITE);
 * Peep button for user (SITE);
+* <bar> element, ahead of <body> (PEHTML);
 * New PEHTML icon in topbar (SITE);
 * Plasma breadcrumbs in topbar (SITE);
 * Add wrappers to <h1> elements (SITE);
