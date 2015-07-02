@@ -18,6 +18,8 @@
 * Ask.fm popup (SITE);
 * Peep button for user (SITE);
 * <bar> element, ahead of <body> (PEHTML);
+* Book API (PEHTML);
+* Reading mode API (PEHTML);
 * New PEHTML icon in topbar (SITE);
 * Plasma breadcrumbs in topbar (SITE);
 * Add wrappers to <h1> elements (SITE);
