@@ -1,3 +1,4 @@
+* Added W3counter (SITE);
 * Site PEHTML score (SITE);
 * PEHTML Requests (PAGE);
 * PEHTML Scores (PAGE);
