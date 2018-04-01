@@ -1,3 +1,5 @@
+blockquotebtn as class of blockquotes (automatically fixes positioning issues)
+
 update browsertab tag (in index and cst-tab)
 
 make the blockquotes selectable
