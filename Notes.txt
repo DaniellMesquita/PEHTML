@@ -1,3 +1,11 @@
+update browsertab tag (in index and cst-tab)
+
+make the blockquotes selectable
+
+noPEHTML tip: open as popunder, copy to clipboard
+
+cst tab: open as popunder, title (in tab and in code), color (in tab and in code), background (in tab and in code), copy to clipboard
+
 * Added W3counter (SITE);
 * Site PEHTML score (SITE);
 * PEHTML Requests (PAGE);
