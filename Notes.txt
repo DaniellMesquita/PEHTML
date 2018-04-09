@@ -1,3 +1,5 @@
+add <img src="img/ib.svg" width="16" height="16"> referencing to online link in nopehtml.html
+
 blockquotebtn as class of blockquotes (automatically fixes positioning issues)
 
 update browsertab tag (in index and cst-tab)
