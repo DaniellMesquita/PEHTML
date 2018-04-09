@@ -1,3 +1,5 @@
+fix pehtml tags in body
+
 add <img src="img/ib.svg" width="16" height="16"> referencing to online link in nopehtml.html
 
 blockquotebtn as class of blockquotes (automatically fixes positioning issues)
