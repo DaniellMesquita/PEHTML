@@ -1,7 +1,5 @@
 <group> tag
 
-can use white border in favicon
-
 directory tag supports commas
 
 add <img src="img/ib.svg" width="16" height="16"> referencing to online link in nopehtml.html
