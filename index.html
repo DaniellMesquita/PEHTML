@@ -3,18 +3,24 @@
 <head>
 <link rel="stylesheet" type="text/css" href="rsc/common.css">
 <link rel="icon" href="icon.png" />
-<title>Plasmmer Experimental HTML</title>
+<link rel="logo" href="icon.svg" border="true" />
+<title color="#fff">Plasmmer Experimental HTML</title>
+<meta name="pehtml" content="true">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+<meta name="directory" content="rsc">
+<meta name="description" content="O PEHTML não é uma versão nova do HTML, e sim tags modernas porém ainda experimentais desenvolvidas pela Plasmmer com o intuito de facilitar, simplificar, complementar e agilizar a Web.">
+<meta name="keywords" content="HTML5, experimental, semantic, markup language, tags">
 </head>
 <body>
 <header><logo/></header>
 <div class="content">
 <article>
-<nopehtml><blockquote style="background:#D6D6D6;border-top:1px solid #E7534F;border-bottom:1px solid #E7534F;border-left:10px solid #E7534F;border-right:10px solid #E7534F;border-radius:20px;margin:0 auto;text-align:center"><div style="margin-top: -7px;margin-left: 5px;width: 80px;height: 80px;clear: left;float: left"><img src="rsc/warning.svg" width="80px" height="80px"/></div><h1 style="font-size:40px;margin-top:-5px;margin-bottom:-1px">Aviso</h1><br>Seu navegador não suporta sites construídos em PEHTML. Isso significa que esse site não será exibido corretamente em seu atual navegador. <br><img src="rsc/ib.svg" width="16" height="16"> <a href="../boat">Baixe o navegador Internet Boat</a> para experimentar todo o poder do PEHTML e aproveitar todos os recursos desse site.</blockquote></nopehtml>
+<nopehtml><blockquote style="background:#D6D6D6;border-top:1px solid #E7534F;border-bottom:1px solid #E7534F;border-left:10px solid #E7534F;border-right:10px solid #E7534F;border-radius:20px;margin:0 auto;text-align:center"><div style="margin-top: -7px;margin-left: 5px;width: 80px;height: 80px;clear: left;float: left"><img src="rsc/warning.svg" width="80px" height="80px"></div><h1 style="font-size:40px;margin-top:-5px;margin-bottom:-1px">Aviso</h1><br>Seu navegador não suporta sites construídos em PEHTML. Isso significa que esse site não será exibido corretamente em seu atual navegador. <br><img src="rsc/ib.svg" width="16" height="16"> <a href="../boat">Baixe o navegador Internet Boat</a> para experimentar todo o poder do PEHTML e aproveitar todos os recursos desse site.</blockquote></nopehtml>
 <h1>O que é o Plasmmer Experimental HTML (PEHTML)</h1>
 <p>São tags HTML modernas porém ainda experimentais, desenvolvidas pela Plasmmer. Novas tags meta, para design, localização de arquivos e semânticas.<br>Esta página é recomendada para todos os desenvolvedores web e programadores de navegadores. Segue abaixo a lista dos navegadores que atualmente suportam o PEHTML:</p>
-<blockquote class="browsers"><img src="rsc/ib.svg" width="16" height="16" /> Internet Boat <span class="badge green" title="Pontuação obtida no PEHTML Test (Under construction)">?</span></blockquote>
+<blockquote class="browsers"><img src="rsc/ib.svg" width="16" height="16"> Internet Boat <span class="badge green" title="Pontuação obtida no PEHTML Test (Under construction)">?</span></blockquote>
 
-<h1>Começando</h1><br/>
+<h1>Começando</h1><br>
 <h2>Meta tag do PEHTML</h2>
 <p>Para avisar aos usuários e desenvolvedores de que seu site possui conteúdo em PEHTML, utilize essa meta tag:</p>
 <blockquote>&lt;meta name="pehtml" content="true"&gt;</blockquote>
@@ -23,21 +29,21 @@
 <p>Como você observou anteriormente, uma mensagem é exibida no topo dessa página, avisando ao visitante que o navegador dele não suporta o PEHTML.<br>Para inserir uma mensagem como essa em seu site, utilize essa tag:</p>
 <blockquote>&lt;nopehtml&gt;Sua mensagem personalizada aqui&lt;/nopehtml&gt;<script language="JavaScript"> function abrir(URL) {  var width = 570;  var height = 420;  var left = 99;  var top = 99;  window.open(URL,'janela', 'width='+width+', height='+height+', top='+top+', left='+left+', scrollbars=yes, status=no, toolbar=no, location=no, directories=no, menubar=no, resizable=no, fullscreen=no'); } </script> <a href="javascript:abrir('nopehtml.html');"><div class="blockquotebtn blockquoteminibtn">Você pode usar o mesmo código utilizado nesta página!</div></a></blockquote>
 
-<h1>Tags estruturais</h1><br/>
+<h1>Tags estruturais</h1><br>
 <p>Utilizando o script, a meta tag e a &lt;nopehtml&gt;, você já estará pronto para utilizar o PEHTML com maestria em seu site. Seguem abaixo todas as tags do PEHTML, com suas descrições e links para suas próprias páginas com maiores informações:</p>
-<h2>Abas</h2><span class="badge">BETA</span>
+<h2>Abas</h2>
 <p>Com essas tags, você pode personalizar o fundo, a cor do texto e o ícone da aba de seu site.</p>
-<blockquote>&lt;icon src="icon.ico"&gt;&lt;/icon&gt;<span> Este é o ícone que aparecerá na aba, ao lado do título do site. Ao você arrastar a aba para a barra de tarefas, poderá fixar o site como um aplicativo. Para tal, esse ícone deverá estar no formato .SVG e ser responsivo. Os padrões do PEHTML suportam ícones animados e a API de ícones dinâmicos.</span><br>&lt;browsertab color="#CD5C5C"&gt;&lt;/browsertab&gt;<span> Marca a cor da aba do site. Quando o site for fixado como um aplicativo, essa será a cor da tile e da caixa de ferramentas do aplicativo. Caso não seja utilizada essa tag, a cor padrão será baseada na cor predominante do ícone do site.</span><br>&lt;title color= "#CD5C5C"&gt;Título do site&lt;/title&gt;<span> Marca a cor do título do site, caso o administrador queira fazer um contraste no design da aba. Quando o site for fixado como um aplicativo, essa será a cor do título da tile/caixa de ferramentas do aplicativo. Caso não seja utilizada essa tag, a cor padrão será preto/branco.</span><br><span></span><br><br><span></span><span></span><a href="customtab.html" target="blank"><div class="blockquotebtn">E aí, vai rolar um teste?</div></a></blockquote>
+<blockquote>&lt;link rel="logo" href="icon.svg" border="true" /&gt;<span> Este é o ícone que aparecerá na aba, ao lado do título do site. Ao você arrastar a aba para a barra de tarefas, poderá fixar o site como um aplicativo. Para tal, esse ícone deverá estar no formato .SVG e ser responsivo. Os padrões do PEHTML suportam ícones animados e a API de ícones dinâmicos. The <code>border</code> attribute defines if the icon will have a border in the case of favicon being in same color of the tab, and this border can be is black/white depending on tab's color intensity.</span><br><strike>&lt;browsertab color="#CD5C5C"&gt;&lt;/browsertab&gt;</strike> (DEPRECATED)<span> Marca a cor da aba do site. Quando o site for fixado como um aplicativo, essa será a cor da tile e da caixa de ferramentas do aplicativo. Caso não seja utilizada essa tag, a cor padrão será baseada na cor predominante do ícone do site. <b>UPDATE</b>: Now it is available for Progressive Web App developers to use in <code>manifest.json</code> using <code>"theme_color": "#295596"</code>.</span><br>&lt;title color= "#fff"&gt;Título do site&lt;/title&gt;<span> Marca a cor do título do site, caso o administrador queira fazer um contraste no design da aba. Quando o site for fixado como um aplicativo, essa será a cor do título da tile/caixa de ferramentas do aplicativo. Caso não seja utilizada essa tag, a cor padrão será preto/branco.</span><br><span></span><br><br><span></span><span></span><a href="customtab.html" target="blank"><div class="blockquotebtn">E aí, vai rolar um teste?</div></a></blockquote>
 
 <h2>Logo</h2>
 <p>Essa tag estrutural serve para marcar o logo do cabeçalho principal do site.</p>
 <blockquote>&lt;logo/&gt;</blockquote>
 
 <h2>Comments</h2>
-<p>No HTML5, foi incluida a tag semântica &lt;article&gt para postagens. No PEHTML também foi incluida a tag &lt;comments&gt para os comentários.</p>
+<p>No HTML5, foi incluida a tag semântica &lt;article&gt; para postagens. No PEHTML também foi incluida a tag &lt;comments&gt; para os comentários.</p>
 <blockquote>&lt;comments&gt;&lt;/comments&gt;</blockquote>
 
-<h1>Tags meta</h1><br/>
+<h1>Tags meta</h1><br>
 <h2>Tag encurtada para arquivos externos</h2><span class="badge">BETA</span>
 <p>Para carregar arquivos CSS e JS em massa - com uma simples tag - apontando para um diretório. Todos os arquivos desse local serão carregados no site.<br>O carregamento de recursos externos irá simplificar o código-fonte e agilizar o carregamento da página.</p>
 <blockquote>&lt;meta name="directory" content="folder"&gt;<span> Em <i>content</i>, o valor é o endereço/nome da pasta em que os arquivos se localizam.</span></blockquote>
@@ -49,7 +55,7 @@
 <span> Informa quando um site possui conteúdo pornográfico.</span> <span class="badge mini" title="Essa tag redireciona o site para uma página de aviso do navegador">REDIRECT</span> <span class="badge blue mini" title="Essa tag dependerá das configurações do usuário, incluindo o Controle Parental">PARENTAL CONTROL</span><br>&lt;meta name="rating" content="hentai"&gt;<span> Informa quando um site possui pornografia em mangá/animê.</span> <span class="badge mini" title="Essa tag redireciona o site para uma página de aviso do navegador">REDIRECT</span> <span class="badge blue mini" title="Essa tag dependerá das configurações do usuário, incluindo o Controle Parental">PARENTAL CONTROL</span><br>&lt;meta name="rating" content="ecchi"&gt;<br>&lt;meta name="rating" content="yaoi"&gt;<br>&lt;meta name="rating" content="yuri"&gt;<br>&lt;meta name="rating" content="humor"&gt; <span> Informa quando um site possui conteúdo humorístico/satírico.</span> <span class="badge mini" title="Essa tag exibe um aviso em forma de popup/notificação">POPUP</span>
 <br>&lt;meta name="rating" content="promiscuous"&gt; <span> Informa quando um site possui conteúdo devasso, com duplos-sentidos, palavrões e dentre outras coisas do gênero.</span> <span class="badge mini" title="Essa tag redireciona o site para uma página de aviso do navegador">REDIRECT</span> <span class="badge blue mini" title="Essa tag dependerá das configurações do usuário, incluindo o Controle Parental">PARENTAL CONTROL</span></blockquote>
 
-<h1>Mais</h1><br/>
+<h1>Mais</h1><br>
 <h2>Selo do PEHTML</h2>
 <p>Essa tag estrutural serve para marcar o logo do cabeçalho principal do site.</p>
 <blockquote>&lt;logo/&gt;</blockquote>

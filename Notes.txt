@@ -1,5 +1,3 @@
-fix pehtml tags in body
-
 <group> tag
 
 can use white border in favicon
