@@ -1,3 +1,7 @@
+PEHTML version
+
+gambling and exchange rating tags
+
 <group> tag
 
 directory tag supports commas

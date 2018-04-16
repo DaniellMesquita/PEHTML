@@ -1,0 +1,32 @@
+.header, header {
+    background: #295596!important;
+}
+
+.logo,logo {
+    background:url(../img/logotype.svg) no-repeat no-repeat 10px 15px
+}
+
+::selection {
+    background: #295596!important;
+    color: #fff!important;
+}
+
+.h1, h1 {
+    color: #295596!important;
+}
+
+.navmenu {
+    color: #295596!important;
+}
+.navmenu ul > li:hover {
+    background: #295596!important;
+}
+
+ul.tabs{border-bottom:1px solid #295596}
+ul.tabs li a:active{color:#29559680;border-bottom:4px solid #29559680}
+ul.tabs li.current a{color:#295596;border-bottom:4px solid #295596}
+
+button.color{background:#295596;color:#fff;font-weight:bold;padding:10px;font-size:16px}
+button.color:hover{background:#fff;color:#295596}
+
+.footer,footer{background:#295596}

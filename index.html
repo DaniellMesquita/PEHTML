@@ -2,7 +2,13 @@
 <html lang="pt-br">
 <head>
 <script type="text/javascript" src="js/jquery.min.js"></script>
-<link rel="stylesheet" type="text/css" href="css/common.css">
+<script type="text/javascript" src="js/app-common.js"></script>
+<link rel="stylesheet" type="text/css" href="css/page-common.css">
+<link rel="stylesheet" type="text/css" href="css/app-common.css">
+<link rel="stylesheet" type="text/css" href="css/page-custom.css">
+<link rel="stylesheet" type="text/css" href="css/app-custom.css">
+<link href="Fonts/Roboto/font.css" rel="stylesheet">
+<link href="Fonts/Material Icons/font.css" rel="stylesheet">
 <link rel="icon" href="icon.png" />
 <link rel="logo" href="icon.svg" border="true" />
 <title color="#fff">Plasmmer Experimental HTML</title>
@@ -13,7 +19,7 @@
 <meta name="keywords" content="HTML5, experimental, semantic, markup language, tags">
 </head>
 <body>
-<header><logo/></header>
+<header><logo></logo></header>
 <div class="content">
 <article>
 <nopehtml><blockquote style="background:#D6D6D6;border-top:1px solid #E7534F;border-bottom:1px solid #E7534F;border-left:10px solid #E7534F;border-right:10px solid #E7534F;border-radius:20px;margin:0 auto;text-align:center"><div style="margin-top: -7px;margin-left: 5px;width: 80px;height: 80px;clear: left;float: left"><img src="img/warning.svg" width="80px" height="80px"></div><h1 style="font-size:40px;margin-top:-5px;margin-bottom:-1px">Warning</h1><br>Your browser don't supports sites built with PEHTML. This means that this site could not be shown completly in your current browser. <br><img src="img/ib.svg" width="16" height="16"> <a href="../boat">Download the Internet Boat browser</a> to enjoy the whole power of PEHTML and all the features of this site.<br><p>Don't know what is PEHTML? Learn <a href="https://plasnerd.github.io/PEHTML/" target="blank">here</a>.</p></blockquote></nopehtml>
@@ -28,13 +34,13 @@
 
 <h2>Aviso para navegadores que não suportam o PEHTML</h2>
 <p>Como você observou anteriormente, uma mensagem é exibida no topo dessa página, avisando ao visitante que o navegador dele não suporta o PEHTML.<br>Para inserir uma mensagem como essa em seu site, utilize essa tag:</p>
-<blockquote>&lt;nopehtml&gt;Sua mensagem personalizada aqui&lt;/nopehtml&gt;<script language="JavaScript"> function abrir(URL) {  var width = 570;  var height = 420;  var left = 99;  var top = 99;  window.open(URL,'janela', 'width='+width+', height='+height+', top='+top+', left='+left+', scrollbars=yes, status=no, toolbar=no, location=no, directories=no, menubar=no, resizable=no, fullscreen=no'); } </script> <a href="javascript:abrir('nopehtml.html');"><div class="blockquotebtn blockquoteminibtn">Você pode usar o mesmo código utilizado nesta página!</div></a></blockquote>
+<blockquote>&lt;nopehtml&gt;Sua mensagem personalizada aqui&lt;/nopehtml&gt;<script language="JavaScript"> function abrir(URL) {  var width = 570;  var height = 420;  var left = 99;  var top = 99;  window.open(URL,'janela', 'width='+width+', height='+height+', top='+top+', left='+left+', scrollbars=yes, status=no, toolbar=no, location=no, directories=no, menubar=no, resizable=no, fullscreen=no'); } </script> <a href="javascript:abrir('nopehtml.html');"><button class="color sticky left">Você pode usar o mesmo código utilizado nesta página!</button></a></blockquote>
 
 <h1>Tags estruturais</h1><br>
 <p>Utilizando o script, a meta tag e a &lt;nopehtml&gt;, você já estará pronto para utilizar o PEHTML com maestria em seu site. Seguem abaixo todas as tags do PEHTML, com suas descrições e links para suas próprias páginas com maiores informações:</p>
 <h2>Abas</h2>
 <p>Com essas tags, você pode personalizar o fundo, a cor do texto e o ícone da aba de seu site.</p>
-<blockquote>&lt;link rel="logo" href="icon.svg" border="true" /&gt;<span> Este é o ícone que aparecerá na aba, ao lado do título do site. Ao você arrastar a aba para a barra de tarefas, poderá fixar o site como um aplicativo. Para tal, esse ícone deverá estar no formato .SVG e ser responsivo. Os padrões do PEHTML suportam ícones animados e a API de ícones dinâmicos. The <code>border</code> attribute defines if the icon will have a border in the case of favicon being in same color of the tab, and this border can be is black/white depending on tab's color intensity.</span><br><strike>&lt;browsertab color="#CD5C5C"&gt;&lt;/browsertab&gt;</strike> (DEPRECATED)<span> Marca a cor da aba do site. Quando o site for fixado como um aplicativo, essa será a cor da tile e da caixa de ferramentas do aplicativo. Caso não seja utilizada essa tag, a cor padrão será baseada na cor predominante do ícone do site. <b>UPDATE</b>: Now it is available for Progressive Web App developers to use in <code>manifest.json</code> using <code>"theme_color": "#295596"</code>.</span><br>&lt;title color= "#fff"&gt;Título do site&lt;/title&gt;<span> Marca a cor do título do site, caso o administrador queira fazer um contraste no design da aba. Quando o site for fixado como um aplicativo, essa será a cor do título da tile/caixa de ferramentas do aplicativo. Caso não seja utilizada essa tag, a cor padrão será preto/branco.</span><br><span></span><br><br><span></span><span></span><a href="customtab.html" target="blank"><div class="blockquotebtn">E aí, vai rolar um teste?</div></a></blockquote>
+<blockquote>&lt;link rel="logo" href="icon.svg" border="true" /&gt;<span> Este é o ícone que aparecerá na aba, ao lado do título do site. Ao você arrastar a aba para a barra de tarefas, poderá fixar o site como um aplicativo. Para tal, esse ícone deverá estar no formato .SVG e ser responsivo. Os padrões do PEHTML suportam ícones animados e a API de ícones dinâmicos. The <code>border</code> attribute defines if the icon will have a border in the case of favicon being in same color of the tab, and this border can be is black/white depending on tab's color intensity.</span><br><strike>&lt;browsertab color="#CD5C5C"&gt;&lt;/browsertab&gt;</strike> (DEPRECATED)<span> Marca a cor da aba do site. Quando o site for fixado como um aplicativo, essa será a cor da tile e da caixa de ferramentas do aplicativo. Caso não seja utilizada essa tag, a cor padrão será baseada na cor predominante do ícone do site. <b>UPDATE</b>: Now it is available for Progressive Web App developers to use in <code>manifest.json</code> using <code>"theme_color": "#295596"</code>.</span><br>&lt;title color= "#fff"&gt;Título do site&lt;/title&gt;<span> Marca a cor do título do site, caso o administrador queira fazer um contraste no design da aba. Quando o site for fixado como um aplicativo, essa será a cor do título da tile/caixa de ferramentas do aplicativo. Caso não seja utilizada essa tag, a cor padrão será preto/branco.</span><br><span></span><br><br><span></span><span></span><a href="customtab.html" target="blank"><button class="color sticky">E aí, vai rolar um teste?</button></a></blockquote>
 
 <h2>Logo</h2>
 <p>Essa tag estrutural serve para marcar o logo do cabeçalho principal do site.</p>
@@ -45,12 +51,12 @@
 <blockquote>&lt;comments&gt;&lt;/comments&gt;</blockquote>
 
 <h1>Tags meta</h1><br>
-<h2>Tag encurtada para arquivos externos</h2><span class="badge">BETA</span>
+<h2>Tag encurtada para arquivos externos <span class="badge">BETA</span></h2>
 <p>Para carregar arquivos CSS, JS, imagens, sons e outros arquivos em massa - com uma simples tag - apontando para um diretório. Todos os arquivos desse local serão carregados no site.<br>O carregamento de recursos externos irá simplificar o código-fonte e agilizar o carregamento da página.</p>
 <blockquote>&lt;meta name="directory" content="folder"&gt;<span> Em <i>content</i>, o valor é o endereço/nome da pasta em que os arquivos se localizam.</span></blockquote>
- <p><span class="badge">NEW</span> You can point to more than one folder by using commas, like: <code>&lt;meta name="directory" content="css, js, img, snd"&gt;</code></p>
+ <p><span class="badge">NEW</span> You can point to more than one folder by using commas, like: <code>&lt;meta name="directory" content="css, js, img, snd"&gt;</code>.</p>
 
-<h2>Rating</h2><span class="badge">BETA</span>
+<h2>Rating <span class="badge">BETA</span></h2>
 <p>Uma forma de classificar a página quanto à censura, tanto em navegadores quanto em mecanismos de busca. Em sistemas operacionais/navegadores modernos, haverá integração com o Controle Parental e evitarão com que a educação dos pais seja violada ou que haja constrangimentos públicos. Essa tag também serve para livrar as pessoas de tópicos os quais ela deseja evitar ou para que sites emitam avisos sobre o conteúdo.<br>No PEHTML, 8 valores para o <i>content</i> foram acrescentados para essa tag, como segue abaixo:</p>
 <blockquote>&lt;meta name="rating" content="chock"&gt;<span> Informa quando um site possui conteúdo chocante (cenas fortes), não recomendado para pessoas mais frágeis sentimentalmente.</span> <span class="badge mini" title="Essa tag redireciona o site para uma página de aviso do navegador">REDIRECT</span> <span class="badge blue mini" title="Essa tag dependerá das configurações do usuário, incluindo o Controle Parental">PARENTAL CONTROL</span>
 <br>&lt;meta name="rating" content="porn"&gt;
@@ -89,7 +95,8 @@ s.setAttribute('data-timestamp', +new Date());
 </blockquote>
 </comments>
 <div class="footer-shadow"></div>
-<footer><center>Atualizado em 02/01/2018 às 00:31</center>
+<footer><center>Atualizado em 16/04/2018 às 17:55</center>
+<a href="https://plasnerd.github.io/Framework.js/" target="blank" style="opacity:1"><img src="https://plasnerd.github.io/Framework.js/img/seal-1.png" width="167px" height="94px" style="-webkit-user-drag:element;margin-right:5px"></a><img src="img/seal-2.png" width="167px" height="94px" style="-webkit-user-drag:element">
 <div class="social-icons"><a href="https://github.com/DaniellMesquita/PEHTML" target="blank"><img src="img/social/github.svg" width="40px" height="40px" title="See first the news and improve PEHTML in GitHub" alt="GitHub"/></a><a href="https://facebook.com/PlasmmerDevelopers" target="blank"><img src="img/social/facebook.svg" width="40px" height="40px" title="Like us and receive latest news feed about PEHTML progress and other development tools" alt="Facebook"/></a><a href="https://twitter.com/PlasmmerDevelopers" target="blank"><img src="img/social/twitter.svg" width="40px" height="40px" title="Follow us and receive latest news feed about PEHTML progress and other development tools" alt="Twitter"></a><a href="https://ask.fm/PlasmmerDevelopers" target="blank"><img src="img/social/ask.svg" width="40px" height="40px" title="Follow/Ask us and receive latest answers for PEHTML and other development tools" alt="Ask.fm"></a><a href="https://plasmmer.deviantart.com" target="blank"><img src="img/social/deviantart.svg" width="40px" height="40px" title="Follow us and receive latest backgrounds, designs and apps" alt="Deviantart"></a></div><div class="social-buttons"></div>
 <copyright><center>Importante: O PEHTML não é uma versão nova do HTML, e sim tags experimentais criadas pela Plasmmer com o intuito de facilitar, simplificar, complementar e agilizar a Web. O PEHTML não pertence e nem possui ligações com a <a href="http://www.w3.org/" target="blank">W3C</a>.<br/>(c) 2012-2018 <a href="https://plasmmer.github.io/" target="blank"><small>Plasmmer</small></a>. Thanks to <b>Jesus</b>, our Lord.</center></copyright></footer>
 </div>
