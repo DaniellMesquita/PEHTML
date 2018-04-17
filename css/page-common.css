@@ -22,12 +22,15 @@ a:visited{color:#aa4eaf}
 a:hover{font-weight:bold;text-decoration:none}
 a:active{opacity:0.5}
 a .badge{color:#fff!important;text-decoration:none}
-a + button{text-decoration:none}
+a button{text-decoration:none}
 
 ::selection {
     background: #00A185;
     color: #fff;
 }
+
+.full-size{width:100%;height:100%}
+.no-opacity{opacity:1}
 
 .h1, h1{font-size:80px;color:#00A185;margin:25px 0px 0px 0px;user-select:text!important}
 .h2, h2{font-size:70px;color:#333;margin:25px 0px 0px 0px;user-select:text!important}
