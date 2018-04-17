@@ -2,6 +2,11 @@ gambling and exchange rating tags
 religious parody rating tag
 religious rating tag
 
+Social profiles
+Social buttons
+
+P Kit
+
 id in headings
 
 <group> tag
