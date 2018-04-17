@@ -2,6 +2,8 @@ gambling and exchange rating tags
 religious parody rating tag
 religious rating tag
 
+id in headings
+
 <group> tag
 
 update browsertab tag (in index and cst-tab)

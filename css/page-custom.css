@@ -3,6 +3,7 @@
 }
 
 .logo,logo {
+    width: 315px;
     background:url(../img/logotype.svg) no-repeat no-repeat 10px 15px
 }
 
