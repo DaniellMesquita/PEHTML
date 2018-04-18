@@ -11,6 +11,8 @@ id in headings
 
 <group> tag
 
+<spoiler> tag
+
 update browsertab tag (in index and cst-tab)
 
 noPEHTML tip: open as popunder, copy to clipboard
