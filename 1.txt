@@ -1,0 +1,10 @@
+Updated Framework
+
+Social profiles
+Social buttons
+
+id in headings
+
+update browsertab tag (in index and cst-tab)
+
+Fix NOPEHTML blockquote

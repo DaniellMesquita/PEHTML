@@ -2,24 +2,16 @@ gambling and exchange rating tags
 religious parody rating tag
 religious rating tag
 
-Social profiles
-Social buttons
-
-P Kit
-
-id in headings
-
 <group> tag
 
 <spoiler> tag
 
-update browsertab tag (in index and cst-tab)
-
 noPEHTML tip: open as popunder, copy to clipboard
+
+P Kit
 
 cst tab: open as popunder, title (in tab and in code), color (in tab and in code), background (in tab and in code), copy to clipboard
 
-* Fix NOPEHTML blockquote
 * Added W3counter (SITE);
 * Site PEHTML score (SITE);
 * PEHTML Requests (PAGE);
