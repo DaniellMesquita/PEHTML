@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
 <script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/app-common.js"></script>
+<script type="text/javascript" src="js/page-common.js"></script>
 <link rel="stylesheet" type="text/css" href="css/page-common.css">
 <link rel="stylesheet" type="text/css" href="css/app-common.css">
 <link rel="stylesheet" type="text/css" href="css/page-custom.css">
@@ -19,7 +19,9 @@
 <meta name="keywords" content="HTML5, experimental, semantic, markup language, tags">
 </head>
 <body>
+
 <header><logo></logo><span class="badge">v2</span></header>
+
 <div class="content">
 <article>
 <nopehtml><blockquote style="background:#D6D6D6;border-top:1px solid #E7534F;border-bottom:1px solid #E7534F;border-left:10px solid #E7534F;border-right:10px solid #E7534F;border-radius:20px;margin:0 auto;text-align:center"><div style="margin-top: -7px;margin-left: 5px;width: 80px;height: 80px;clear: left;float: left"><img src="img/warning.svg" width="80px" height="80px"></div><h1 style="font-size:40px;margin-top:-5px;margin-bottom:-1px">Warning</h1><br>Your browser don't supports sites built with PEHTML. This means that this site could not be shown completly in your current browser. <br><img src="img/ib.svg" width="16" height="16"> <a href="../boat">Download the Internet Boat browser</a> to enjoy the whole power of PEHTML and all the features of this site.<br><p>Don't know what is PEHTML? Learn <a href="https://plasnerd.github.io/PEHTML/" target="blank">here</a>.</p></blockquote></nopehtml>
@@ -65,14 +67,14 @@
 
 <h1>Mais</h1><br>
 <h2>Selo do PEHTML</h2>
-<img src="img/seal-2.png" width="167px" height="94px" style="-webkit-user-drag:element">
-<br><textarea onclick="this.focus();this.select()" readonly="readonly" style="margin:6px 41px;width: 392px;height: 70px;">&lt;a href="https://plasnerd.github.io/PEHTML/" target="blank"&gt;&lt;img src="https://plasnerd.github.io/PEHTML/img/seal-2.png" width="167px" height="94px" style="-webkit-user-drag:element"&gt;&lt;/a&gt;</textarea>
+<img src="img/seal-2.png" width="167px" height="94px" title="Built with PEHTML" style="-webkit-user-drag:element">
+<br><textarea onclick="this.focus();this.select()" readonly="readonly" style="margin:6px 41px;width: 392px;height: 70px;">&lt;a href="https://plasnerd.github.io/PEHTML/" target="blank"&gt;&lt;img src="https://plasnerd.github.io/PEHTML/img/seal-2.png" width="167px" height="94px" title="Built with PEHTML" style="-webkit-user-drag:element"&gt;&lt;/a&gt;</textarea>
 <h2>Badge</h2>
 <img src="https://img.shields.io/badge/built%20with-PEHTML%20(v2)-295596.svg" style="-webkit-user-drag:element"><br><textarea onclick="this.focus();this.select()" readonly="readonly" style="margin:6px 41px;width: 392px;height: 58px;">&lt;a href="https://plasnerd.github.io/PEHTML/" target="blank"&gt;&lt;img src="https://img.shields.io/badge/built%20with-PEHTML%20(v2)-295596.svg"&gt;&lt;/a&gt;</textarea>
-
 </article>
+
 <comments>
-<h1>Comments <span class="badge"><a href="https://plasnerd.github.io/PEHTML#disqus_thread">Loading...</a></span></h1>
+<h1 id="comments">Comments <span class="badge"><a href="https://plasnerd.github.io/PEHTML#disqus_thread">Loading...</a></span></h1>
 <blockquote>
 <div id="disqus_thread"></div>
 <script>
@@ -96,12 +98,16 @@ s.setAttribute('data-timestamp', +new Date());
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
                             
 </blockquote>
+
 </comments>
+
+<footer>
 <div class="footer-shadow"></div>
-<footer><center>Atualizado em 16/04/2018 às 21:35</center>
-<a href="https://plasnerd.github.io/Framework.js/" target="blank" class="no-opacity"><img src="https://plasnerd.github.io/Framework.js/img/seal-1.png" width="167px" height="94px" style="-webkit-user-drag:element;margin-right:5px"></a><img src="img/seal-2.png" width="167px" height="94px" style="-webkit-user-drag:element">
-<div class="social-icons"><a href="https://github.com/DaniellMesquita/PEHTML" target="blank"><img src="img/social/github.svg" width="40px" height="40px" title="See first the news and improve PEHTML in GitHub" alt="GitHub"/></a><a href="https://facebook.com/PlasmmerDevelopers" target="blank"><img src="img/social/facebook.svg" width="40px" height="40px" title="Like us and receive latest news feed about PEHTML progress and other development tools" alt="Facebook"/></a><a href="https://twitter.com/PlasmmerDevelopers" target="blank"><img src="img/social/twitter.svg" width="40px" height="40px" title="Follow us and receive latest news feed about PEHTML progress and other development tools" alt="Twitter"></a><a href="https://ask.fm/PlasmmerDevelopers" target="blank"><img src="img/social/ask.svg" width="40px" height="40px" title="Follow/Ask us and receive latest answers for PEHTML and other development tools" alt="Ask.fm"></a><a href="https://plasmmer.deviantart.com" target="blank"><img src="img/social/deviantart.svg" width="40px" height="40px" title="Follow us and receive latest backgrounds, designs and apps" alt="Deviantart"></a></div><div class="social-buttons"></div>
-<copyright><center>Importante: O PEHTML não é uma versão nova do HTML, e sim tags experimentais criadas pela Plasmmer com o intuito de facilitar, simplificar, complementar e agilizar a Web. O PEHTML não pertence e nem possui ligações com a <a href="http://www.w3.org/" target="blank">W3C</a>.<br/>(c) 2012-2018 <a href="https://plasmmer.github.io/" target="blank"><small>Plasmmer</small></a>. Thanks to <b>Jesus</b>, our Lord.</center></copyright></footer>
+<center>Atualizado em 25/08/2018 às 22:41</center>
+<a href="https://plasnerd.github.io/Framework.js/" target="blank" class="no-opacity"><img src="https://plasnerd.github.io/Framework.js/img/seal-1.png" width="167px" height="94px" title="Built with FrameworkJS" style="-webkit-user-drag:element"></a> <img src="img/seal-2.png" width="167px" height="94px" style="-webkit-user-drag:element">
+<div class="social-icons"><a href="https://github.com/Plasnerd/PEHTML" target="blank"><img src="img/social/github.svg" width="40px" height="40px" title="See first the news and improve PEHTML in GitHub" alt="GitHub"/></a><!--<a href="https://facebook.com/PlasmmerDevelopers" target="blank"><img src="img/social/facebook.svg" width="40px" height="40px" title="Like us and receive latest news feed about PEHTML progress and other development tools" alt="Facebook"/></a><a href="https://twitter.com/PlasmmerDevelopers" target="blank"><img src="img/social/twitter.svg" width="40px" height="40px" title="Follow us and receive latest news feed about PEHTML progress and other development tools" alt="Twitter"></a><a href="https://ask.fm/PlasmmerDevelopers" target="blank"><img src="img/social/ask.svg" width="40px" height="40px" title="Follow/Ask us and receive latest answers for PEHTML and other development tools" alt="Ask.fm"></a><a href="https://plasmmer.deviantart.com" target="blank"><img src="img/social/deviantart.svg" width="40px" height="40px" title="Follow us and receive latest backgrounds, designs and apps" alt="Deviantart"></a>--></div><div class="social-buttons"></div>
+<copyright><center>Importante: O PEHTML não é uma versão nova do HTML, e sim tags experimentais criadas pela Plasmmer com o intuito de facilitar, simplificar, complementar e agilizar a Web. O PEHTML não pertence e nem possui ligações com a <a href="http://www.w3.org/" target="blank">W3C</a>.<br/>(c) 2012-2018 <a href="https://plasnerd.github.io/" target="blank"><small>Plasnerd</small></a>. Thanks to <b>Jesus</b>, our Lord.</center></copyright>
+</footer>
 </div>
 <script id="dsq-count-scr" src="//pehtml.disqus.com/count.js" async></script>
 </body>
